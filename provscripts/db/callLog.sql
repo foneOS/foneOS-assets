@@ -1,0 +1,1 @@
+CREATE TABLE calls(entryID INTEGER PRIMARY KEY, phoneNumber TEXT, direction TEXT, pickedUp INTEGER);
