@@ -11,7 +11,6 @@ function setPhoneNumber(text)
 	phoneNumber:x((width-phoneNumber:width()) / 2) -- center text
 	
 	phoneNumber:create()
-	fone.layout.draw()
 end
 
 function addNumber(text)
@@ -20,6 +19,7 @@ function addNumber(text)
 		phoneNumber:text("")
 	end
 	setPhoneNumber(phoneNumber:text() .. text)
+	fone.layout.draw()
 end
 
 title = FoneOSTitle.new()
