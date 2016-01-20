@@ -1,6 +1,6 @@
-CREATE TABLE contacts(ID INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT,phoneNumber INTEGER);
+CREATE TABLE contacts(ID INTEGER PRIMARY KEY, firstName TEXT, lastName TEXT,phoneNumber TEXT);
 
 INSERT INTO table
 (firstName, lastName, phoneNumber)
 VALUES
-("test", "contact" , 6466968239 );
+("test", "contact" , "12345678901" );
